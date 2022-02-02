@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Каталог</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
   <body>
     <header class="page-header">
@@ -21,6 +22,7 @@
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
             <a class="navigation-link" href="#">
+              <img src="images/search.svg" alt="">
               <span class="visually-hidden">
                 Поиск
               </span>
@@ -28,6 +30,7 @@
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
+              <img src="images/favorite.svg" alt="">
               <span class="visually-hidden">
                 Избранное
               </span>
@@ -39,15 +42,17 @@
         </ul>
       </nav>
       <a href="index.html">
-      <img class="logo" src="" alt="Логотип Седона.">
+        <img class="logo" src="images/logo.png" width="139" height="70" alt="Логотип «Седона».">
       </a>
     </header>
     <main class="main-inner">
-      <header class="inner-header">
+      <section class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
+        <img class="banner-hotels" src="images/hotels-background.jpg" alt="" width="1200" height="485">
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link" href="index.html">
+              <img src="images/home.svg" alt="">
             <span class="visually-hidden">Главная</span>
             </a>
           </li>
@@ -55,9 +60,8 @@
             <a class="breadcrumbs-link">Гостиницы</a>
           </li>
         </ul>
-      </header>
-      <section class="catalog-products">
-        <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
+      </section>
+      <section class="catalog-hotels">
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
           <fieldset class="catalog-filter-housing">
             <legend class="catalog-filter-title">Инфраструктура:</legend>
@@ -110,7 +114,8 @@
         </form>
       </section>
       <section>
-        <h3>Найдено гостиниц: 38</h3>
+        <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
+        <p>Найдено гостиниц: 38</p>
         <select class="select-control" aria-label="Сортировка">
           <option value="popular">Сначала популярное</option>
           <option value="cheap">Сначала дешёвое</option>
@@ -128,7 +133,7 @@
         <ul class="hotel-list">
           <li class="hotel-cards">
             <a class="hotel-cards-link" href="#">
-              <img class="hotel-cards-image" src="" alt="">
+              <img class="hotel-cards-image" src="hotel-amara-resort.jpg" alt="">
               <h3 class="hotel-cards-title">Amara Resort & Spa</h3>
             </a>
             <p>Гостиница</p>
@@ -138,7 +143,7 @@
           </li>
           <li class="hotel-cards">
             <a class="hotel-cards-link" href="#">
-              <img class="hotel-cards-image" src="" alt="">
+              <img class="hotel-cards-image" src="images/hotel-desert-quail.jpg" alt="">
               <h3 class="hotel-cards-title">Desert Quail Inn</h3>
             </a>
             <p>Гостиница</p>
@@ -148,7 +153,7 @@
           </li>
           <li class="hotel-cards">
             <a class="hotel-cards-link" href="#">
-              <img class="hotel-cards-image" src="" alt="">
+              <img class="hotel-cards-image" src="images/hotel-villas-poco.jpg" alt="">
               <h3 class="hotel-cards-title">Villas at Poco Diablo</h3>
             </a>
             <p>Гостиница</p>
@@ -158,7 +163,7 @@
           </li>
           <li class="hotel-cards">
             <a class="hotel-cards-link" href="#">
-              <img class="hotel-cards-image" src="" alt="">
+              <img class="hotel-cards-image" src="images/hotel-greentree.jpg" alt="">
               <h3 class="hotel-cards-title">GreenTree Inn</h3>
             </a>
             <p>Гостиница</p>
@@ -209,22 +214,25 @@
       <ul class="footer-social-list">
         <li class="footer-social-item">
           <a class="button" href="#">
+            <img src="images/social-twitter.svg" alt="">
             <span class="visually-hidden">Твиттер</span>
           </a>
         </li>
         <li class="footer-social-item">
           <a class="button" href="#">
+            <img src="images/social-facebook.svg" alt="">
             <span class="visually-hidden">Фейсбук</span>
           </a>
         </li>
         <li class="footer-social-item">
           <a class="button" href="#">
+            <img src="images/social-youtube.svg" alt="">
             <span class="visually-hidden">Ютуб</span>
           </a>
         </li>
       </ul>
       <a class="footer-contacts-address-phone" href="tel:+78005558628">+7 800 555-86-28</a>
-      <img src="" alt="Логотим академии">
+      <img class="footer-contacts-logo" src="images/logo-footer.svg" alt="Логотип академии" width="" height="">
     </footer>
   </body>
 </html>
