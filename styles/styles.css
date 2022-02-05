@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "PT Sans";
+  fonf-style: normal;
+  font-weight: 400;
+  src: url(font/ptsans-400.woff2) format("woff2");
+  font-display: swop;
+}
+@font-face {
+  font-family: "PT Sans";
+  fonf-style: normal;
+  font-weight: 700;
+  src: url(font/ptsans-700.woff2) format("woff2");
+  font-display: swop;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-width: 400;
+  color: #000000;
+  background: #ffffff;
+}
+.page-header {
+  color: #000000;
+  background: #ffffff;
+}
+.navigation-link {
+  font-size: 20px;
+  line-height: 26px;
+  font-width: 700;
+  color: #000000;
+  background: #ffffff;
+}
+.banner-index {
+  color: #000000;
+  background-color: #ffffff;
+  background-image: url("../images/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.inner-header {
+  color: #000000;
+  background-color: #ffffff;
+  background-image: url("../images/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.inner-header-title {
+  color: #ffffff;
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+}
+.advantages {
+  text-align: center;
+}
+.advantages-title {
+  text-align: center;
+}
+.advantages p {
+  font-size: 22px;
+  line-height: 36px;
+  color: #333333;
+}
+.advantages-title h3 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.advantages-title p {
+  color: #333333;
+}
+.advantages-cold-light {
+  color: #ffffff;
+  background-color: #83B3D3;
+  text-align: center;
+}
+.advantages-cold-light p {
+  color: #ffffff;
+
+}
+.cold-transparent {
+  background: rgba(131, 179, 211, 0.12);
+}
+.transparent-light {
+  background: rgba(131, 179, 211, 0.2);
+}
+.hotel-search {
+  text-align: center;
+}
+.hotel-search p {
+  color: #333333;
+}
+.thumbnail {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.subscription {
+  background-image: url("../images/photo-subscription.jpg");
+  background-size: 100% auto;
+  height: 411px;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-align: center;
+}
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.catalog-hotels {
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.catalog-filter-title {
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 700;
+}
