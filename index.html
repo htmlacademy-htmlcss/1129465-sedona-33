@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
+
+  <!-- Шапка и меню -->
     <header class="page-header">
       <nav class="navigation">
         <ul class="navigation-list">
@@ -48,19 +50,21 @@
       <img class="logo" src="images/logo.png" width="139" height="70" alt="Логотип «Седона».">
     </header>
     <main>
+
+      <!-- Главный банер   -->
       <section class="banner-index">
         <h1 class="visually-hidden">Отели в городе «Седона»</h1>
         <img class="welcome-index" src="images/welcome.png" alt="" width="458" height="352">
-        <img class="lower-decor-index" src="images/lower-decor.png" alt="" width="1200" height="57">
       </section>
-        <section class="advantages">
+
+      <!-- Преимущества -->
+      <section class="advantages">
           <h2 class="visually-hidden">Преимущества</h2>
           <p class="thumbnail">Седона — небольшой городок в Аризоне,<br>
             заслуживающий большего!</p>
-          <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
-        </section>
-        <section class="advantages-title">
-          <ul>
+          <p >Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+      </section>
+          <ul class="advantages-list">
               <li class="advantages-cold-light">
                 <h3>Настоящий городок</h3>
                 <p>— №1 —</p>
@@ -72,7 +76,7 @@
                 <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
                 <img src="images/icon-1.png" alt="" width="75" height="72">
               </li>
-              <li>
+              <li class="parent-background">
                 <h3>Еда</h3>
                 <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
                 <img src="images/icon-2.png" alt="" width="74" height="70">
@@ -104,7 +108,8 @@
                 <p>Большинство едет в Гранд Каньон и толпится там</p>
               </li>
             </ul>
-      </section>
+
+      <!-- Попап поиск гостиниц -->
       <section class="hotel-search">
         <h2 class="visually-hidden">Лучшие предложения</h2>
         <p class="thumbnail">Заинтересовались?</p>
@@ -113,18 +118,20 @@
         </p>
         <button class="button" type="submit">Поиск гостиницы в седоне</button>
       </section>
-      <section class="subscription">
-        <h2>Подпишитесь на рассылку</h2>
+
+      <!-- Форма записи -->
+      <section class="newsletter">
+        <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <form action="https://echo.htmlacademy.ru/" method="post">
-          <label for="newsletter-email">Email</label>
-          <input placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
-          <button type="submit">
-            <span class="visually-hidden">Подписаться</span>
-          </button>
+        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+            <label class="visually-hidden" for="newsletter-email">Email</label>
+            <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+          <button class="button" type="submit">Подписаться</button>
         </form>
       </section>
     </main>
+
+  <!-- Подвал -->
       <footer class="page-footer">
           <ul class="footer-social-list">
             <li class="footer-social-item">
